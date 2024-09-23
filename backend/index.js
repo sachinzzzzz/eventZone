@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: process.env.BASE,
+    origin: "https://eventzone-vbt5.onrender.com" || process.env.BASE ,
   })
 );
 
